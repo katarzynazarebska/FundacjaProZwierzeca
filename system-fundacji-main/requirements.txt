@@ -1,0 +1,8 @@
+streamlit
+pandas
+requests
+streamlit-lottie
+pytz
+pytest
+SQLAlchemy
+Pillow
