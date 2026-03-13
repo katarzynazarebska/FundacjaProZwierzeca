@@ -3,8 +3,13 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 import os
 
-# 1. KONFIGURACJA BAZY DANYCH
-DATABASE_URL = "sqlite:///fundacja.db"
+# 1. KONFIGURACJA BAZY DANYCH (Kuloodporna ścieżka)
+# Pobieramy dokładną ścieżkę do folderu, w którym znajduje się ten plik
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Łączymy ścieżkę folderu z nazwą pliku bazy danych
+db_path = os.path.join(BASE_DIR, "fundacja.db")
+
+DATABASE_URL = f"sqlite:///{db_path}"
 
 # 2. SILNIK
 engine = create_engine(
