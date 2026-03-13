@@ -6,3 +6,4 @@ pytz
 pytest
 SQLAlchemy
 Pillow
+plotly
