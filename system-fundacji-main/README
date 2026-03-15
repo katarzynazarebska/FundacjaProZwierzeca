@@ -15,8 +15,7 @@ Uruchomienie Lokalne:
 Instrukcja instalacji krok po kroku:
 1: Pobranie kodu
 Pobierz kod źródłowy jako plik ZIP i rozpakuj go w wybranym folderze lub sklonuj repozytorium za pomocą polecenia:
-```bash
-git clone [https://github.com/katarzynazarebska/FundacjaProZwierzeca/tree/main/system-fundacji-main]
+git clone https://github.com/katarzynazarebska/FundacjaProZwierzeca/tree/main/system-fundacji-main
 cd system-fundacji
 
 2. Pobranie bibliotek
